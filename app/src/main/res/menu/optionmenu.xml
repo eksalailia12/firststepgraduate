@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/jadwal"
+        android:title="Jadwal Seminar Proposal"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/daftar"
+        android:title="Daftar Dosen Penguji"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/alur"
+        android:title="Alur Sempro dan Sidang"
+        app:showAsAction="never"/>
+</menu>

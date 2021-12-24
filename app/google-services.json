@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "492275521054",
+    "firebase_url": "https://jadwalsempro-5f936-default-rtdb.firebaseio.com",
+    "project_id": "jadwalsempro-5f936",
+    "storage_bucket": "jadwalsempro-5f936.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:492275521054:android:5ea7b1930916e6f49a000f",
+        "android_client_info": {
+          "package_name": "com.project.jadwalsempro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "492275521054-aq59ur08ncb32bn13rm17l87dpsn5c7c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhVf5Fo0-jkELX4VmA0Osn4ef4-Ek56vM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "492275521054-aq59ur08ncb32bn13rm17l87dpsn5c7c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
