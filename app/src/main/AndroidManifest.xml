@@ -19,6 +19,10 @@
             </intent-filter>
         </activity>
         <activity android:name=".MainActivity"/>
+        <activity android:name=".LoginFormActivity"/>
+        <activity android:name=".LoginActivity"/>
+        <activity android:name=".RegistrasiActivity"/>
+        <activity android:name=".admin.BerandaAdmin"/>
     </application>
 
 </manifest>

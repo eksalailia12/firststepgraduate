@@ -29,18 +29,25 @@ public class MainActivity extends AppCompatActivity {
 
         icberanda = beranda.findViewById(R.id.img_menu);
         titleberanda = beranda.findViewById(R.id.txt_title);
+
         icprofil = profil.findViewById(R.id.img_menu);
         titleprofil = profil.findViewById(R.id.txt_title);
+
         icnotifikasi = notifikasi.findViewById(R.id.img_menu);
         titlenotifikasi = notifikasi.findViewById(R.id.txt_title);
+
         icinformasi = informasi.findViewById(R.id.img_menu);
         titleinformasi = informasi.findViewById(R.id.txt_title);
+
         ictutorial = tutorial.findViewById(R.id.img_menu);
         titletutorial = tutorial.findViewById(R.id.txt_title);
+
         icfaq = faq.findViewById(R.id.img_menu);
         titlefaq = faq.findViewById(R.id.txt_title);
+
         iclogout = logout.findViewById(R.id.img_menu);
         titlelogout = logout.findViewById(R.id.txt_title);
+
         icpengaturan = pengaturan.findViewById(R.id.img_menu);
         titlepengaturan = pengaturan.findViewById(R.id.txt_title);
 

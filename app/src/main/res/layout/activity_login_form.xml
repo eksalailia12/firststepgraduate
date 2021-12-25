@@ -59,6 +59,7 @@
         <EditText
             android:id="@+id/edt_password"
             android:layout_width="match_parent"
+            android:inputType="textPassword"
             android:layout_height="wrap_content"
             android:padding="5dp"
             android:background="#ffffff"/>
@@ -72,6 +73,7 @@
             android:background="#EFEC9C"
             android:text="LOGIN"/>
         <TextView
+            android:visibility="gone"
             android:id="@+id/btn_register"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
