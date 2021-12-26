@@ -4,20 +4,28 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/jadwalsempro/app/src/main/res/drawable/bg_button.xml" value="0.28615384615384615" />
+        <entry key="..\:/jadwalsempro/app/src/main/res/drawable/side_nav_bar.xml" value="0.25277777777777777" />
         <entry key="..\:/jadwalsempro/app/src/main/res/layout/activity_beranda.xml" value="0.264" />
         <entry key="..\:/jadwalsempro/app/src/main/res/layout/activity_beranda_admin.xml" value="0.27447916666666666" />
+        <entry key="..\:/jadwalsempro/app/src/main/res/layout/activity_beranda_mahasiswa.xml" value="0.27447916666666666" />
+        <entry key="..\:/jadwalsempro/app/src/main/res/layout/activity_edit_profil_mahasiswa.xml" value="0.27447916666666666" />
         <entry key="..\:/jadwalsempro/app/src/main/res/layout/activity_login.xml" value="0.27447916666666666" />
         <entry key="..\:/jadwalsempro/app/src/main/res/layout/activity_login_form.xml" value="0.2" />
         <entry key="..\:/jadwalsempro/app/src/main/res/layout/activity_main.xml" value="0.152" />
         <entry key="..\:/jadwalsempro/app/src/main/res/layout/activity_notification.xml" value="0.23596014492753623" />
+        <entry key="..\:/jadwalsempro/app/src/main/res/layout/activity_pengaturan.xml" value="0.27447916666666666" />
         <entry key="..\:/jadwalsempro/app/src/main/res/layout/activity_profil_dosen.xml" value="0.264" />
-        <entry key="..\:/jadwalsempro/app/src/main/res/layout/activity_profil_mahasiswa.xml" value="0.2" />
+        <entry key="..\:/jadwalsempro/app/src/main/res/layout/activity_profil_mahasiswa.xml" value="0.264" />
         <entry key="..\:/jadwalsempro/app/src/main/res/layout/activity_register.xml" value="0.27447916666666666" />
         <entry key="..\:/jadwalsempro/app/src/main/res/layout/activity_splashscreen.xml" value="0.176" />
+        <entry key="..\:/jadwalsempro/app/src/main/res/layout/app_bar_beranda_mahasiswa.xml" value="0.27447916666666666" />
+        <entry key="..\:/jadwalsempro/app/src/main/res/layout/content_beranda_mahasiswa.xml" value="0.27447916666666666" />
+        <entry key="..\:/jadwalsempro/app/src/main/res/layout/dialog_menu.xml" value="0.27447916666666666" />
         <entry key="..\:/jadwalsempro/app/src/main/res/layout/item_home.xml" value="0.27447916666666666" />
         <entry key="..\:/jadwalsempro/app/src/main/res/layout/item_mahasiswa.xml" value="0.27447916666666666" />
         <entry key="..\:/jadwalsempro/app/src/main/res/layout/item_menu.xml" value="0.26268115942028986" />
         <entry key="..\:/jadwalsempro/app/src/main/res/layout/item_notif.xml" value="0.23596014492753623" />
+        <entry key="..\:/jadwalsempro/app/src/main/res/layout/nav_header_beranda_mahasiswa.xml" value="0.27447916666666666" />
         <entry key="..\:/jadwalsempro/app/src/main/res/menu/optionmenu.xml" value="0.264" />
       </map>
     </option>

@@ -24,14 +24,17 @@
             android:layout_gravity="end"
             android:src="@drawable/ic_menu"/>
         <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Sidang sedang berlangsung"
-        android:maxLines="1"
-        android:ellipsize="marquee"
-        android:layout_gravity="center | bottom"
-        android:marqueeRepeatLimit="marquee_forever"
-        android:id="@+id/txt_status_sidang"/>
+            android:id="@+id/txt_status_sidang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25sp"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:layout_gravity="bottom"
+            android:text="Sidang sedang berlangsung"
+            android:textStyle="bold" />
     </FrameLayout>
     <ImageView
         android:id="@+id/btn_filter"
@@ -42,7 +45,6 @@
         android:src="@drawable/ic_filter"
         app:layout_constraintTop_toBottomOf="@id/lay_frame"
         app:layout_constraintEnd_toEndOf="parent"/>
-
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

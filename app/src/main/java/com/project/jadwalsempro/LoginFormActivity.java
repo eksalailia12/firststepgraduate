@@ -84,6 +84,9 @@ public class LoginFormActivity extends AppCompatActivity {
 
 
         }   else if (user.equals("mahasiswa")){
+
+            username.setText("diiahshinta");
+            password.setText("mkopoi098");
             btnLogin.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
@@ -105,7 +108,9 @@ public class LoginFormActivity extends AppCompatActivity {
                                             Toast.makeText(LoginFormActivity.this, "Akun belum verifikasi!", Toast.LENGTH_SHORT).show();
                                         } else {
                                             Intent i = new Intent(LoginFormActivity.this, MainActivity.class);
-                                            i.putExtra("userid", mhs.getUser());
+                                            i.putExtra("userid", mhs.getId());
+                                            i.putExtra("username", mhs.getUsername());
+                                            i.putExtra("user", mhs.getUser());
                                             startActivity(i);
                                             finish();
                                         }

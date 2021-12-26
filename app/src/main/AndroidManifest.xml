@@ -18,11 +18,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity"/>
-        <activity android:name=".LoginFormActivity"/>
-        <activity android:name=".LoginActivity"/>
-        <activity android:name=".RegistrasiActivity"/>
-        <activity android:name=".admin.BerandaAdmin"/>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".LoginFormActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".RegistrasiActivity" />
+        <activity android:name=".admin.BerandaAdmin" />
+        <activity android:name=".mahasiswa.BerandaActivity"/>
+        <activity android:name=".mahasiswa.ProfilMahasiswaActivity"/>
+        <activity android:name=".mahasiswa.EditProfilMahasiswa"/>
+        <activity android:name=".PengaturanActivity"/>
+        <activity android:name=".mahasiswa.NotifikasiActivity"/>
     </application>
 
 </manifest>

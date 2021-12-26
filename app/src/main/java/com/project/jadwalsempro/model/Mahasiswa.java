@@ -1,12 +1,13 @@
 package com.project.jadwalsempro.model;
 
 public class Mahasiswa {
-    private String nama, nim, username, password, hp, email, kelas, judul, dospem, dospen, status, id, user;
+    private String nama, nim, username, password, hp, email, kelas, judul, dospem, dospen, status, id, user, image;
 
     public Mahasiswa(){}
 
-    public Mahasiswa(String id, String status, String nama, String nim, String username, String password, String hp, String email, String kelas, String judul, String dospem, String dospen, String user){
-this.user = user;
+    public Mahasiswa(String id, String status, String nama, String nim, String username, String password, String hp, String email, String kelas, String judul, String dospem, String dospen, String user, String image){
+        this.image = image;
+        this.user = user;
         this.email = email;
         this.hp = hp;
         this.nama = nama;
@@ -19,6 +20,10 @@ this.user = user;
         this.id = id;
         this.status = status;
         this.dospen = dospen;
+    }
+
+    public String getImage() {
+        return image;
     }
 
     public String getUser() {

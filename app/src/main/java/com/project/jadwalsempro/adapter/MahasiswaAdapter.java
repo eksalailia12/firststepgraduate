@@ -61,7 +61,7 @@ public class MahasiswaAdapter extends RecyclerView.Adapter<MahasiswaAdapter.View
                             Mahasiswa mahasiswa = new Mahasiswa(mList.get(position).getId(), "Verifikasi", mList.get(position).getNama(),
                                     mList.get(position).getNim(), mList.get(position).getUsername(),
                                     mList.get(position).getPassword(),
-                                    "",mList.get(position).getEmail(),"","","","", "mahasiswa");
+                                    "",mList.get(position).getEmail(),"","","","", "mahasiswa", "");
                             myRef.setValue(mahasiswa);
                             holder.btnVerif.setVisibility(View.GONE);
                             Toast.makeText(context.getApplicationContext(), "Akun Mahasiswa sudah terverifikasi!", Toast.LENGTH_SHORT).show();

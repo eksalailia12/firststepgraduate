@@ -45,7 +45,7 @@ public class RegistrasiActivity extends AppCompatActivity {
                 String id = myRef.push().getKey();
                 Mahasiswa mahasiswa = new Mahasiswa(id, "Belum Verifikasi", nama.getText().toString(), nim.getText().toString(), username.getText().toString(),
                         password.getText().toString(),
-                        "",email.getText().toString(),"","","","", "mahasiswa");
+                        "",email.getText().toString(),"","","","", "mahasiswa", "");
                 myRef.child(id).setValue(mahasiswa);
                 Toast.makeText(RegistrasiActivity.this, "Berhasil Registrasi! Tunggu validasi admin.", Toast.LENGTH_LONG).show();
                 Intent i = new Intent(RegistrasiActivity.this, LoginFormActivity.class);
